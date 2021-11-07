@@ -3,7 +3,9 @@
 Write a menu-driven program to handle the flow of widgets into and out of a warehouse.
 
 The warehouse will have numerous deliveries of new widgets and orders for widgets
+
 The widgets in a filled order are billed at a profit of 50 percent over their cost
+
 Each delivery of new widgets may have a different cost associated with it
 The accountants for the firm have instituted a last-in, first-out system for filling orders
 the newest widgets are the first ones sent out to fill an order and the most recent orders are filled first
