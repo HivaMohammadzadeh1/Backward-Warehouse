@@ -9,7 +9,7 @@ The accountants for the firm have instituted a last-in, first-out system for fil
 the newest widgets are the first ones sent out to fill an order and the most recent orders are filled first
 partial shipments allowed
 10 widgets were ordered and warehouse has only 4 available, ship 4, the remainder 6 will be shipped later
- Assign unique numbers to each order and each delivery
+Assign unique numbers to each order and each delivery
 This function of inventory can be represented using two stacks: orders-to-be-filled and widgets-on-hand. When delivery of new widgets is received, any unfilled orders (on the orders-to-be-filled stack) are processed and filled. After all orders are filled, if there are widgets remaining in the new delivery, a new element is pushed onto the widgets-on- hand stack. When an order for new widgets is received, one or more objects are popped from the widgets-on-hand stack until the order has been filled.
 If the order is completely filled and there are widgets left over in the last object popped, a modified object with the quantity updated is pushed onto the widgets-on-hand stack.
 If the order is not completely filled, the order is pushed onto the orders-to-be-filled stack with an updated quantity of widgets to be sent out later.
